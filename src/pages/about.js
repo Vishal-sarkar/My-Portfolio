@@ -55,7 +55,7 @@ const about = () => {
                   Biography
                 </h2>
                 <p className="font-medium ">
-                  Greetings! I'm Bishal Sarkar, a dedicated and versatile
+                  Greetings! I&apos;m Bishal Sarkar, a dedicated and versatile
                   Full-Stack Web Developer, and this is a glimpse into my
                   journey.
                 </p>
@@ -63,21 +63,23 @@ const about = () => {
                   My expertise spans across Front-End technologies like HTML,
                   CSS, and ReactJS, and extends into Back-End tools such as
                   NodeJS, Express, and databases like PostgreSQL and MongoDB.
-                  I'm also well-versed in frameworks like Laravel, ensuring a
+                  I&apos;m also well-versed in frameworks like Laravel, ensuring a
                   holistic development experience.
                 </p>
                 <p className="mb-4 font-medium">
-                  👨‍🎓 <span className="font-bold">Education</span>: I hold a Bachelor's in Physics from Tangla
-                  College, Gauhati University, where I cultivated a strong
-                  foundation. Further, I've invested in my skills through
-                  comprehensive courses on platforms like Udemy and The Coding School, covering
-                  everything from web development to quantum computing.
+                  👨‍🎓 <span className="font-bold">Education</span>: I hold a
+                  Bachelor&apos;s in Physics from Tangla College, Gauhati University,
+                  where I cultivated a strong foundation. Further, I&apos;ve invested
+                  in my skills through comprehensive courses on platforms like
+                  Udemy and The Coding School, covering everything from web
+                  development to quantum computing.
                 </p>
                 <p className="font-medium">
-                  💡 <span className="font-bold">What Drives Me</span>: Passionate about continuous learning, I
-                  thrive in dynamic environments, bringing together my technical
-                  prowess, soft skills like teamwork and critical thinking, and
-                  a genuine excitement for software development.
+                  💡 <span className="font-bold">What Drives Me</span>:
+                  Passionate about continuous learning, I thrive in dynamic
+                  environments, bringing together my technical prowess, soft
+                  skills like teamwork and critical thinking, and a genuine
+                  excitement for software development.
                 </p>
               </div>
               <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:col-span-8 md:order-1">
@@ -87,15 +89,13 @@ const about = () => {
                   alt="CodeBucks"
                   className="w-full h-auto rounded-2xl"
                   priority
-                  sizes="(max-width: 768px) 100vw, 
-                                (max-width: 1200px) 50vw, 
-                                50vw"
+                  sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 50vw"
                 />
               </div>
               <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
                 <div className="flex flex-col items-end justify-center xl:items-center">
                   <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                    <AnimatedNumbers value={5} />+
+                    <AnimatedNumbers value={1} />+
                   </span>
                   <h2 className="text-xl font-medium capitalize text-dark dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                     Satisfied clients
@@ -113,7 +113,7 @@ const about = () => {
 
                 <div className="flex flex-col items-end justify-center xl:items-center">
                   <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                    <AnimatedNumbers value={1} />+
+                    <AnimatedNumbers value={2} />+
                   </span>
                   <h2 className="text-xl font-medium capitalize text-dark dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                     Years of experience
