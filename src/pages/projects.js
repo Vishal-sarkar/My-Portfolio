@@ -184,24 +184,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Airbnb clone"
-                img={project5}
-                link="https://airbnb-clone-nine-black.vercel.app/"
-                github="https://github.com/Vishal-sarkar/airbnb-clone"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Note Taker App"
-                img={project9}
-                link="https://vishal-sarkar.github.io/Note-taker-app/"
-                github="https://github.com/Vishal-sarkar/Note-taker-app"
-                type="Featured Project"
-              />
-            </div>
+            
             
             <div className="col-span-12">
               <FeaturedProject
@@ -247,6 +230,26 @@ const projects = () => {
                 Once they are done with their tasks they can also remove them from the list."
                 link="https://vishal-sarkar.github.io/My-Custom-todo-app/"
                 github="https://github.com/Vishal-sarkar/My-Custom-todo-app"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Airbnb clone"
+                img={project5}
+                link="https://airbnb-clone-nine-black.vercel.app/"
+                github="https://github.com/Vishal-sarkar/airbnb-clone"
+                type="Featured Project"
+              />
+            </div>
+            
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Note Taker App"
+                img={project9}
+                link="https://vishal-sarkar.github.io/Note-taker-app/"
+                github="https://github.com/Vishal-sarkar/Note-taker-app"
                 type="Featured Project"
               />
             </div>
