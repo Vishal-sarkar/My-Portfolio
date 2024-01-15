@@ -38,8 +38,9 @@ const about = () => {
     <div>
       <>
         <Head>
-          <title>CodeBucks | About Page</title>
-          <meta name="description" content="any description" />
+          <title>Bishal Sarkar | About Page</title>
+          <meta name="description" content="I'm Bishal Sarkar, a dedicated and versatile
+                  Full-Stack Web Developer." />
         </Head>
         <TransitionEffect />
         <main className="flex w-full flex-col items-center justify-center dark:text-light">

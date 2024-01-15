@@ -133,8 +133,9 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | Project Page</title>
-        <meta name="description" content="any description" />
+        <title>Bishal Sarkar | Project Page</title>
+        <meta name="description" content="I'm Bishal Sarkar, a dedicated and versatile
+                  Full-Stack Web Developer." />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center">
@@ -243,7 +244,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
-            
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Note Taker App"
