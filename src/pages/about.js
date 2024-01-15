@@ -2,7 +2,6 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -85,10 +84,12 @@ const about = () => {
               <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:col-span-8 md:order-1">
                 <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
                 <Image
-                  src={profilePic}
+                  src={"/images/profile/developer-pic-2.jpg"}
                   alt="CodeBucks"
                   className="w-full h-auto rounded-2xl"
                   priority
+                  width={100}
+                  height={100}
                   sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 50vw"
                 />
               </div>
