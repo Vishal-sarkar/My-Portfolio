@@ -17,6 +17,11 @@ import project9 from "../../public/images/projects/9.png";
 import project10 from "../../public/images/projects/10.png";
 import project11 from "../../public/images/projects/11.png";
 import project12 from "../../public/images/projects/12.png";
+import project13 from "../../public/images/projects/13.png";
+import project14 from "../../public/images/projects/14.png";
+import project15 from "../../public/images/projects/15.png";
+import project16 from "../../public/images/projects/16.png";
+import project17 from "../../public/images/projects/17.png";
 
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -189,7 +194,7 @@ const projects = () => {
               <FeaturedProject
                 title="Space Invader Game"
                 img={project7}
-                summery=" fully functional space invader game with pure HTML, CSS and JavaScript, where enemy from space invades the user’s base and the user has to protect their base from it."
+                summery="A fully functional space invader game with pure HTML, CSS and JavaScript, where enemy from space invades the user’s base and the user has to protect their base from it."
                 link="https://vishal-sarkar.github.io/Space-invader-game/"
                 github="https://github.com/Vishal-sarkar/Space-invader-game"
                 type="Practice Project"
@@ -206,19 +211,28 @@ const projects = () => {
               />
             </div>
             
-            <div className="col-span-12">
-              <FeaturedProject
+            
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 title="Snake Game"
                 img={project11}
-                summery="A fully functional Snake game built with pure HTML, CSS
-                and JavaScript. The player controls a creature, resembling a snake, which roams around on a bordered plane, picking up food,
-                trying to avoid hitting its own tail or the edges of the playing area. Each time the snake eats a piece of food, its tail grows
-                longer, making the game increasingly difficult."
                 link="https://vishal-sarkar.github.io/Snake-Game/"
                 github="https://github.com/Vishal-sarkar/Snake-Game"
                 type="Practice Project"
               />
             </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Tic-Tac-Toe Game"
+                img={project16}
+                link="https://vishal-sarkar.github.io/Tic-Tac-Toe/"
+                github="https://github.com/Vishal-sarkar/Tic-Tac-Toe"
+                type="Practice Project"
+              />
+            </div>
+
 
 
             <div className="col-span-12">
