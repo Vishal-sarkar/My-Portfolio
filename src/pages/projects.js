@@ -149,9 +149,7 @@ const projects = () => {
               <FeaturedProject
                 title="Metaverse"
                 img={project1}
-                summery="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
+                summery="A mordern and attractive metaverse themed fully responsive website, built using latest technology like Next13, Tailwind Css and Framer Motion."
                 link="https://metanextjs.netlify.app/"
                 github="https://github.com/Vishal-sarkar/Metaverse"
                 type="Practice Project"
