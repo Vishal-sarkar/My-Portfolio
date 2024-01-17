@@ -149,7 +149,7 @@ const projects = () => {
               <FeaturedProject
                 title="Metaverse"
                 img={project1}
-                summery="A mordern and attractive metaverse themed fully responsive website, built using latest technology like Next13, Tailwind Css and Framer Motion."
+                summery="A modern and fully responsive metaverse themed website, built using latest technology like Next13, Tailwind Css and Framer Motion."
                 link="https://metanextjs.netlify.app/"
                 github="https://github.com/Vishal-sarkar/Metaverse"
                 type="Practice Project"
