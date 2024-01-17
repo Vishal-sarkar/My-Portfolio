@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/1.png";
 import project2 from "../../public/images/projects/2.png";
 import project3 from "../../public/images/projects/3.png";
 import project4 from "../../public/images/projects/4.png";
@@ -145,25 +145,25 @@ const projects = () => {
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            {/* <div className="col-span-12">
+            <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="Metaverse"
                 img={project1}
                 summery="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                             local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                link="https://metanextjs.netlify.app/"
+                github="https://github.com/Vishal-sarkar/Metaverse"
+                type="Practice Project"
               />
-            </div> */}
+            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="E-Commerce Web Application"
                 img={project2}
                 link="https://b-commerce-mystore.netlify.app/"
                 github="https://b-commerce-mystore.netlify.app/"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -172,7 +172,7 @@ const projects = () => {
                 img={project3}
                 link="https://demo-website-rho-swart.vercel.app/"
                 github="https://github.com/Vishal-sarkar/demo_website"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             <div className="col-span-12">
@@ -182,7 +182,7 @@ const projects = () => {
                 summery="A web application to store book online, built using Reactjs, Tailwind css, Express and MongoDB, where you can able to add, edit and delete book data stored on a MongoDB databse"
                 link="https://celadon-pavlova-7a2593.netlify.app/"
                 github="https://github.com/Vishal-sarkar/BookStore"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             
@@ -194,7 +194,7 @@ const projects = () => {
                 summery=" fully functional space invader game with pure HTML, CSS and JavaScript, where enemy from space invades the user’s base and the user has to protect their base from it."
                 link="https://vishal-sarkar.github.io/Space-invader-game/"
                 github="https://github.com/Vishal-sarkar/Space-invader-game"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             <div className="col-span-12">
@@ -204,7 +204,7 @@ const projects = () => {
                 summery="A fully functional Card Match gave with pure HTML, CSS and JavaScript. Here I used a pair of avenger character laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards."
                 link="https://vishal-sarkar.github.io/Avenger-memoryGame/"
                 github="https://github.com/Vishal-sarkar/Avenger-memoryGame"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             
@@ -218,7 +218,7 @@ const projects = () => {
                 longer, making the game increasingly difficult."
                 link="https://vishal-sarkar.github.io/Snake-Game/"
                 github="https://github.com/Vishal-sarkar/Snake-Game"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
 
@@ -231,7 +231,7 @@ const projects = () => {
                 Once they are done with their tasks they can also remove them from the list."
                 link="https://vishal-sarkar.github.io/My-Custom-todo-app/"
                 github="https://github.com/Vishal-sarkar/My-Custom-todo-app"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
 
@@ -241,7 +241,7 @@ const projects = () => {
                 img={project5}
                 link="https://airbnb-clone-nine-black.vercel.app/"
                 github="https://github.com/Vishal-sarkar/airbnb-clone"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
 
@@ -251,7 +251,7 @@ const projects = () => {
                 img={project9}
                 link="https://vishal-sarkar.github.io/Note-taker-app/"
                 github="https://github.com/Vishal-sarkar/Note-taker-app"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
 
@@ -261,7 +261,7 @@ const projects = () => {
                 img={project6}
                 link="https://vishal-sarkar.github.io/startup-of-the-year/"
                 github="https://github.com/Vishal-sarkar/startup-of-the-year"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -270,7 +270,7 @@ const projects = () => {
                 img={project12}
                 link="https://vishal-sarkar.github.io/My-Robofriends/"
                 github="https://github.com/Vishal-sarkar/My-Robofriends"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
            

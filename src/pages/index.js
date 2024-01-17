@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Bishal sarkar</title>
         <meta name="description" content="I'm Bishal Sarkar, a dedicated and versatile
-                  Full-Stack Web Developer" />
+                  Full-Stack Web Developer." />
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
