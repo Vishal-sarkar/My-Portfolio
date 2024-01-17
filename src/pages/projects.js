@@ -220,6 +220,7 @@ const projects = () => {
               />
             </div>
 
+
             <div className="col-span-12">
               <FeaturedProject
                 title="Todo App"
