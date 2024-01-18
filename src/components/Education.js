@@ -54,7 +54,7 @@ const Education = () => {
                         info="Relevant courses included Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases" />
 
                     <Details
-                        type="Introduction to Quantum Computing with IBM Quantum"
+                        type="Introduction to Quantum Computing with IBM Quantum (Sponsores by IBM Quantum)"
                         time="2020-2021"
                         place="The coding school,3940 laurel canyon blvd. Ste 153 los angeles, CA 91604"
                         info="introductory linear algebra, coding with Qiskit, quantum mechanics, quantum algorithms, python , quantum applications and more." />

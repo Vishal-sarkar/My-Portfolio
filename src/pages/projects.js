@@ -62,13 +62,13 @@ const FeaturedProject = ({ type, title, summery, img, link, github }) => {
           {summery}
         </p>
         <div className="mt-2 flex items-center">
-          <Link
+          {github && (<Link
             href={github}
             target="_blank"
             className="w-10 dark:bg-dark dark:text-light"
           >
             <GithubIcon />
-          </Link>
+          </Link>)}
           <Link
             href={link}
             target="_blank"
@@ -121,13 +121,13 @@ const Project = ({ title, type, img, link, github }) => {
             Visit
           </Link>
 
-          <Link
+          {github && <Link
             href={github}
             target="_blank"
             className="w-8 dark:bg-dark dark:text-light md:w-6"
           >
             <GithubIcon />{" "}
-          </Link>
+          </Link>}
         </div>
       </div>
     </article>
@@ -160,6 +160,45 @@ const projects = () => {
                 type="Practice Project"
               />
             </div>
+            
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Thea Homes"
+                img={project14}
+                link="https://theahomesmanali.com/"
+                github=""
+                type="Company Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Score Me"
+                img={project15}
+                link="https://scoreme.in/"
+                github=""
+                type="Company Project"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Just Home Stay"
+                img={project13}
+                summery="Contributed on building various features of this website like search functionality for mobile and build an admin panel for it to edit, add and update data in the website."
+                link="https://justhomestay.in/"
+                github=""
+                type="Company Project"
+              />
+            </div>
+            {/* <div className="col-span-12">
+              <FeaturedProject
+                title="Admin Panel"
+                img={project17}
+                summery=""
+                link="https://scoreme.in/management/dashboard"
+                github=""
+                type="Company Project"
+              />
+            </div> */}
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="E-Commerce Web Application"
