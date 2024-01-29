@@ -160,7 +160,16 @@ const projects = () => {
                 type="Practice Project"
               />
             </div>
-            
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Just Home Stay"
+                img={project13}
+                summery="Contributed on building various features of this website like search functionality for mobile and build an admin panel for it to edit, add and update data in the website."
+                link="https://justhomestay.in/"
+                github=""
+                type="Company Project"
+              />
+            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Thea Homes"
@@ -179,26 +188,17 @@ const projects = () => {
                 type="Company Project"
               />
             </div>
+            
             <div className="col-span-12">
-              <FeaturedProject
-                title="Just Home Stay"
-                img={project13}
-                summery="Contributed on building various features of this website like search functionality for mobile and build an admin panel for it to edit, add and update data in the website."
-                link="https://justhomestay.in/"
-                github=""
-                type="Company Project"
-              />
-            </div>
-            {/* <div className="col-span-12">
               <FeaturedProject
                 title="Admin Panel"
                 img={project17}
-                summery=""
+                summery="Admin Panel for Score Me website with analytics and graph to get insights from the website. And it consists of forms where admin can add, edit and delete data in the website."
                 link="https://scoreme.in/management/dashboard"
                 github=""
                 type="Company Project"
               />
-            </div> */}
+            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="E-Commerce Web Application"
