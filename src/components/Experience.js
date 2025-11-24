@@ -55,6 +55,14 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Full Stack Developer"
+            company="Handysolver"
+            time="May 2024 - Present"
+            address="C 705, Pioneer Urban Square, Golf Course Ext Rd, Sector 62, Gurugram, Ghata, Haryana 122098"
+            companyLink="https://handysolver.com"
+            work="Full-stack developer with hands-on experience building responsive dashboards, automation tools, and API-driven systems using React.js, PHP, MySQL, and Firebase. Improved workflow efficiency by 40% through scalable automation solutions. Skilled in creating reusable components, optimizing performance, and collaborating across teams to deliver reliable, user-centric business applications."
+          />
+          <Details
             position="Web Developer"
             company="Criss Cross Lab"
             time="Dec 2022 - Present"
@@ -68,7 +76,7 @@ const Experience = () => {
             time="Apr 2022 - Dec 2022"
             address="Bengaluru, Karnataka, India"
             companyLink="https://www.linkedin.com/in/anirban-banerjee-710a7921b/"
-            work=""
+            work="Worked as a Web Developer, creating and deploying responsive company and client websites using ReactJS, Bootstrap, and Wix. Focused on mobile-first design, clean UI, and optimized performance."
           />
         </ul>
       </div>
